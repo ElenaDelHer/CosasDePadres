@@ -1,0 +1,23 @@
+.header{
+    background-color:#3A4F63;
+    .nav-link1 , .nav-link2{
+      color: #F2DDB6 !important;
+      
+    }
+  
+  
+    .btn.btn-outline-success{
+      background-color:#4A90E2;
+      color: #F2DDB6;
+      border: #3A4F63;
+    }
+  }
+  
+  
+  
+  @media (min-width: 768px)  {
+    
+         
+  }
+  @media (min-width: 1024px) {
+  }

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { HistoryContext } from "../contexto/HistoryContext";
+import "../styles/History.css"
 
 const HistoryComponent = () => {
   // Traigo las historias a través del contexto
@@ -15,7 +16,6 @@ const HistoryComponent = () => {
         {filterHistory.map((history) => (
           <div className="container-cards" key={history.id}>
             <div className="container-photo">
-              {/* Aquí puedes agregar la imagen si lo necesitas */}
               <img src={history.imagen} alt="Historia" />
             </div>
             <div className="card-tema">
